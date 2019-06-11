@@ -22,7 +22,7 @@
         <translation>复制(&amp;C)</translation>
     </message>
     <message>
-        <source>C&amp;lose</source>
+        <source>C&amp;Close</source>
         <translation>关闭(&amp;l)</translation>
     </message>
     <message>
@@ -47,14 +47,14 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>选择要付钱过去的地址</translation>
+        <translation>选择付款地址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>选择要收钱进来的地址</translation>
+        <translation>选择收款地址</translation>
     </message>
     <message>
-        <source>C&amp;hoose</source>
+        <source>C&amp;Choose</source>
         <translation>选择</translation>
     </message>
     <message>
@@ -67,11 +67,11 @@
     </message>
     <message>
         <source>These are your SIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>这些是你要付款过去的比特币地址。在付钱之前，务必要检查金额和收款地址是否正确。</translation>
+        <translation>这些是你要付款过去的SIN地址。付款之前，务必检查金额和收款地址是否正确。</translation>
     </message>
     <message>
         <source>These are your SIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>这些是你用来收款的比特币地址。建议在每次交易时，都使用一个新的收款地址。</translation>
+        <translation>这些是你用来收款的SIN地址。建议每次交易，都使用一个新的收款地址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -133,7 +133,7 @@
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>重复新密码</translation>
+        <translation>重复输入新密码</translation>
     </message>
     <message>
         <source>Show password</source>
@@ -157,7 +157,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>这个操作需要你的钱包密码来把钱包解密。</translation>
+        <translation>这个操作需要你的钱包密码来解密钱包。</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -177,11 +177,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SIN COINS&lt;/b&gt;!</source>
-        <translation>警告: 如果把钱包加密后又忘记密码，你就会从此&lt;b&gt;失去其中所有的比特币了&lt;/b&gt;！</translation>
+        <translation>警告: 如果把钱包加密后又忘记密码，你就会从此&lt;b&gt;失去其中所有的SIN了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>你确定要把钱包加密吗？</translation>
+        <translation>确定加密钱包？</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -193,7 +193,7 @@
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>重要: 请改用新产生的有加密的钱包文件，来取代旧钱包文件的备份。为了安全性，当你开始使用新的有加密的钱包后，旧钱包文件的备份就不能再使用了。</translation>
+        <translation>重要: 请使用已加密的钱包文件，来取代旧钱包文件的备份。为了安全性，当你开始使用新的有加密的钱包后，旧钱包文件的备份就不能再使用了。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -201,11 +201,11 @@
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>因为内部错误导致钱包加密失败。你的钱包还是没加密。</translation>
+        <translation>因为内部错误导致钱包加密失败。</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>提供的密码不一致。</translation>
+        <translation>密码不一致。</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
@@ -247,7 +247,7 @@
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>正在与网络同步...</translation>
+        <translation>网络正在同步...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -327,27 +327,27 @@
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>点击禁用网络活动。</translation>
+        <translation>点击禁用网络。</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>网络活动已禁用。</translation>
+        <translation>网络已禁用。</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>点击重新开启网络活动。</translation>
+        <translation>点击重新开启网络。</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
-        <translation>同步区块头 (%1%)...</translation>
+        <translation>同步区块头文件 (%1%)...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>正在为数据块重建索引...</translation>
+        <translation>正在为区块重建索引...</translation>
     </message>
     <message>
         <source>Send coins to a SIN address</source>
-        <translation>向一个比特币地址发送比特币</translation>
+        <translation>向一个SIN地址发送硬币</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -371,7 +371,7 @@
     </message>
     <message>
         <source>SIN</source>
-        <translation>比特币</translation>
+        <translation>SIN</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -399,11 +399,11 @@
     </message>
     <message>
         <source>Sign messages with your SIN addresses to prove you own them</source>
-        <translation>用比特币地址关联的私钥为消息签名，以证明您拥有这个比特币地址</translation>
+        <translation>用SIN币地址关联的私钥为消息签名，以证明您拥有这个地址</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified SIN addresses</source>
-        <translation>校验消息，确保该消息是由指定的比特币地址所有者签名的</translation>
+        <translation>校验消息，确保该消息是由指定的SI币地址所有者签名</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -739,7 +739,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid SIN address.</source>
-        <translation>输入的地址 %1 并不是有效的比特币地址。</translation>
+        <translation>输入的地址 %1 并不是有效的SIN地址。</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -747,7 +747,7 @@
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>产生新的密钥失败了。</translation>
+        <translation>新密钥生成失败。</translation>
     </message>
 </context>
 <context>
@@ -785,7 +785,7 @@
     </message>
     <message>
         <source>About %1</source>
-        <translation>關於 %1</translation>
+        <translation>关于 %1</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -812,7 +812,7 @@
     </message>
     <message>
         <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
-        <translation>如果你选择限制区块链存储大小（区块链裁剪模式），程序依然会下载并处理全部历史数据，此后才会删除不必须的部分，占用最少的存储空间。</translation>
+        <translation>如果你选择限制区块链存储大小（区块链缩减模式），程序依然会下载并处理全部历史数据，此后才会删除不必须的部分，占用最少的存储空间。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -824,7 +824,7 @@
     </message>
     <message>
         <source>SIN</source>
-        <translation>比特币</translation>
+        <translation>SIN</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -859,7 +859,7 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the sin network, as detailed below.</source>
-        <translation>近期交易可能尚未显示，因此当前余额可能不准确。以上信息将在与比特币网络完全同步后更正。详情如下</translation>
+        <translation>近期交易可能尚未显示，因此当前余额可能不准确。以上信息将在与SIN网络完全同步后更正。详情如下</translation>
     </message>
     <message>
         <source>Attempting to spend sins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -875,7 +875,7 @@
     </message>
     <message>
         <source>Last block time</source>
-        <translation>上一数据块时间</translation>
+        <translation>上一区块时间</translation>
     </message>
     <message>
         <source>Progress</source>
@@ -1033,7 +1033,7 @@
     </message>
     <message>
         <source>Automatically open the SIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动在路由器中打开比特币端口。只有当您的路由器开启了 UPnP 选项时此功能才有效。</translation>
+        <translation>自动在路由器中打开SIN端口。只有当您的路由器开启了 UPnP 选项时此功能才有效。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1049,7 +1049,7 @@
     </message>
     <message>
         <source>Connect to the SIN network through a SOCKS5 proxy.</source>
-        <translation>通过 SOCKS5 代理连接比特币网络。</translation>
+        <translation>通过 SOCKS5 代理连接SIN网络。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1085,7 +1085,7 @@
     </message>
     <message>
         <source>Connect to the SIN network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>在 Tor 匿名网络下通过不同的 SOCKS5 代理连接比特币网络</translation>
+        <translation>在 Tor 匿名网络下通过不同的 SOCKS5 代理连接SIN网络</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1117,11 +1117,11 @@
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>比特币金额单位(&amp;U)：</translation>
+        <translation>SIN金额单位(&amp;U)：</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择比特币单位。</translation>
+        <translation>选择SIN单位。</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1192,7 +1192,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SIN network after a connection is established, but this process has not completed yet.</source>
-        <translation>现在显示的消息可能是过期的。在连接上比特币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成。</translation>
+        <translation>现在显示的消息可能是过期的。在连接上SIN网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1284,7 +1284,7 @@
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid SIN address or malformed URI parameters.</source>
-        <translation>无法解析 URI 地址！可能是因为比特币地址无效，或是 URI 参数格式错误。</translation>
+        <translation>无法解析 URI 地址！可能是因为SIN地址无效，或是 URI 参数格式错误。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1382,7 +1382,7 @@
     </message>
     <message>
         <source>Enter a SIN address (e.g. %1)</source>
-        <translation>请输入一个比特币地址 (例如 %1)</translation>
+        <translation>请输入一个SIN地址 (例如 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1519,15 +1519,15 @@
     </message>
     <message>
         <source>Block chain</source>
-        <translation>数据链</translation>
+        <translation>区块链</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>当前数据块数量</translation>
+        <translation>当前区块数量</translation>
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>资金池</translation>
+        <translation>内存池</translation>
     </message>
     <message>
         <source>Current number of transactions</source>
@@ -1575,7 +1575,7 @@
     </message>
     <message>
         <source>Starting Block</source>
-        <translation>正在启动数据块</translation>
+        <translation>正在启动区块</translation>
     </message>
     <message>
         <source>Synced Headers</source>
@@ -1639,7 +1639,7 @@
     </message>
     <message>
         <source>Last block time</source>
-        <translation>上一数据块时间</translation>
+        <translation>上一区块时间</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1774,7 +1774,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SIN network.</source>
-        <translation>可在付款请求上备注一条信息，在打开付款请求时可以看到。注意：该消息不是通过比特币网络传送。</translation>
+        <translation>可在付款请求上备注一条信息，在打开付款请求时可以看到。注意：该消息不是通过SIN网络传送。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2031,7 +2031,7 @@
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(智能交易费用 尚未初始化。 需要再下载一些数据块...)</translation>
+        <translation>(智能交易费用 尚未初始化。 需要再下载一些区块...)</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -2179,7 +2179,7 @@
     </message>
     <message>
         <source>Warning: Invalid SIN address</source>
-        <translation>警告: 比特币地址无效</translation>
+        <translation>警告:SIN地址无效</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2242,7 +2242,7 @@
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less sins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>交易费将从发送总额中扣除。接收人将收到比您在金额框中输入的更少的比特币。如果选中了多个收件人，交易费平分。</translation>
+        <translation>交易费将从发送总额中扣除。接收人将收到比您在金额框中输入的更少的SIN。如果选中了多个收件人，交易费平分。</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2270,7 +2270,7 @@
     </message>
     <message>
         <source>A message that was attached to the sin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SIN network.</source>
-        <translation>sin:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过比特币网络传输。</translation>
+        <translation>sin:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过SIN网络传输。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2315,7 +2315,7 @@
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive sins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>您可以用你的地址对消息/协议进行签名，以证明您可以接收发送到该地址的比特币。注意不要对任何模棱两可或者随机的消息进行签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
+        <translation>您可以用你的地址对消息/协议进行签名，以证明您可以接收发送到该地址的SIN。注意不要对任何模棱两可或者随机的消息进行签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>
         <source>The SIN address to sign the message with</source>
@@ -2379,7 +2379,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified SIN address</source>
-        <translation>验证消息，确保消息是由指定的比特币地址签名过的。</translation>
+        <translation>验证消息，确保消息是由指定的SIN地址签名过的。</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2584,7 +2584,7 @@
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>生成的比特币在可以使用前必须有 %1 个成熟的区块。当您生成了此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，如果另一个节点比你早几秒钟成功生成一个区块。</translation>
+        <translation>生成的SIN在可以使用前必须有 %1 个成熟的区块。当您生成了此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，如果另一个节点比你早几秒钟成功生成一个区块。</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2809,7 +2809,7 @@
     </message>
     <message>
         <source>Copy raw transaction</source>
-        <translation>拷贝原始交易</translation>
+        <translation>复制原始交易</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
@@ -2895,7 +2895,7 @@
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>没有载入钱包。</translation>
+        <translation>钱包没有载入。</translation>
     </message>
 </context>
 <context>
@@ -2906,7 +2906,7 @@
     </message>
     <message>
         <source>Fee bump error</source>
-        <translation>手续费提升失败</translation>
+        <translation>手续费增加失败</translation>
     </message>
     <message>
         <source>Increasing transaction fee failed</source>
@@ -3048,7 +3048,7 @@
     </message>
     <message>
         <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
-        <translation>没办法重算区块。你需要先用-reindex-chainstate参数来重建数据库。</translation>
+        <translation>没办法重构区块。你需要先用-reindex-chainstate参数来重建数据库。</translation>
     </message>
     <message>
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
@@ -3088,11 +3088,11 @@
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>检测发现数据块数据库损坏。请使用 -reindex参数重启客户端。</translation>
+        <translation>检测发现区块数据库损坏。请使用 -reindex参数重启客户端。</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>你想现在就重建块数据库吗？</translation>
+        <translation>你想现在就重建区块数据库吗？</translation>
     </message>
     <message>
         <source>Error creating %s: You can't create non-HD wallets with this version.</source>
@@ -3100,7 +3100,7 @@
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>初始化数据块数据库出错</translation>
+        <translation>初始化区块数据库出错</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
@@ -3120,11 +3120,11 @@
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>导入数据块数据库出错</translation>
+        <translation>导入区块数据库出错</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>导入数据块数据库出错</translation>
+        <translation>打开区块数据库出错</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
